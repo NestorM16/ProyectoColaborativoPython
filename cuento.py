@@ -1,0 +1,10 @@
+def imprimir_cuento():
+    print()
+    print("El conejo y la tortuga")
+    print()
+    print("Un conejo se burlaba de una tortuga por caminar muy despacio.")
+    print("La tortuga lo desafió a una carrera y el conejo aceptó con mucha confianza.")
+    print("Durante la carrera, el conejo decidió descansar porque pensó que ya había ganado.")
+    print("Mientras tanto, la tortuga siguió caminando sin detenerse.")
+    print("Al despertar, el conejo corrió muy rápido, pero la tortuga ya había llegado a la meta.")
+    print("Moraleja: La constancia y el esfuerzo pueden vencer al exceso de confianza.")
