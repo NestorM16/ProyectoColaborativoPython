@@ -1,22 +1,27 @@
+# Módulo con operaciones matemáticas básicas.
+
+# Realiza una suma.
 def suma(a, b):
     return a + b
 
+# Realiza una resta.
 def resta(a, b):
     return a - b
 
+# Realiza una multiplicación.
 def multiplicacion(a, b):
     return a * b
 
+# Realiza una división.
 def division(a, b):
-    if b != 0:
-        return a / b
-    else:
+    if b == 0:
         return "Error: división por cero"
+    return a / b
 
-# Bloque principal: se ejecuta al correr el archivo
-if __name__ == "__main__":
-    print("Suma:", suma(5, 3))
-    print("Resta:", resta(10, 4))
-    print("Multiplicación:", multiplicacion(7, 2))
-    print("División:", division(9, 3))
-    print("División por cero:", division(9, 0))
+# Calcula una potencia.
+def potencia(a, b):
+    return a ** b
+
+# Calcula el residuo de una división.
+def modulo(a, b):
+    return a % b
